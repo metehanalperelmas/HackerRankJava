@@ -1,18 +1,22 @@
-## Getting Started
+# HackerRank Java Solutions
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains my solutions to various **HackerRank Java challenges**.  
+Each problem is solved in a separate Java class, organized by topic when possible.  
+The goal of this project is to practice Java, improve problem-solving skills, and share clean, working solutions.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Structure
+- `src/` — Source code directory. Each HackerRank problem is implemented in its own class.
+- `README.md` — Project documentation.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Naming Convention
+- Each HackerRank problem has its own **Java class**.
+- Class names are written in **PascalCase** based on the problem title.  
+  Example: `JavaIfElse.java`, `JavaOutputFormatting.java`
+- `easy/`, `medium/`, `hard/` — Each folder corresponds to a difficulty level.  
+  Inside these folders, every HackerRank problem has its own Java class file. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
