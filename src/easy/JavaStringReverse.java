@@ -15,6 +15,7 @@ public class JavaStringReverse {
             }            
         }
         System.out.println("Yes");
+        sc.close();
     }   
     
 }
