@@ -10,6 +10,7 @@ public class JavaRegex {
             String IP = in.next();
             System.out.println(IP.matches(new MyRegex().pattern));
         }
+        in.close();
 
     }
 
